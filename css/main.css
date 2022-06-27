@@ -573,7 +573,14 @@
 }
 .services__modal-description a,
 .services__modal-description i{
+   cursor: pointer;
    color: var(--first-color);
+   transition: .4s
+}
+
+.services__modal-description a:hover,
+.services__modal-description i:hover{
+   color: var(--second-hue);
 }
 .services__modal-list {
    margin-top: 1rem;
